@@ -1379,8 +1379,7 @@ form {
   width: 62.5%;
   height: 100%;
   padding: 5rem;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
   opacity: 0;
 
   -webkit-animation: fadeIn ease-in 1;
