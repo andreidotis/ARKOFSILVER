@@ -190,6 +190,7 @@ img {
 
 img, pre {
     max-width: 100%;
+    max-height: 100%;
     overflow: auto;
 }
 /**
@@ -1398,10 +1399,10 @@ form {
   -moz-animation-delay: 5s;
   animation-delay: 5s;
 
-  display: -moz-flex;
+  /*display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  display: flex;
+  display: flex;*/
 
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
@@ -1566,6 +1567,11 @@ transform: scale(0.9, 0.9);
 #last {
   width: 5%;
   padding: 0;
+
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
 }
  
 #last span {
